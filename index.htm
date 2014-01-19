@@ -1,0 +1,145 @@
+<html>
+	<head>
+
+		<title>PHP com Twitter Bootstrap - Primeiros Passos - By Heider Lopes</title>
+		<meta charset="utf-8">
+		<link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+		<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+		
+	</head>
+
+	  <body style="padding-top: 10px;">
+
+    <div class="container">
+
+      	<div class="navbar navbar-default" role="navigation">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Estudando PHP</a>
+        </div>
+
+
+
+
+        <div class="navbar-collapse collapse">
+          
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Estrutura de Decisão <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+              	<li class="dropdown-header">If e Else</li>
+                <li><a href="#">Exemplo 1</a></li>
+                <li><a href="#">Exemplo 2</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Switch</li>
+                <li><a href="#">Exemplo 3</a></li>
+              </ul>
+            </li>
+
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Estrutura de Repetição <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li class="dropdown-header">For</li>
+                <li><a href="#">Exemplo 1</a></li>
+                <li><a href="#">Exemplo 2</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">While</li>
+				<li><a href="#">Exemplo 3</a></li>
+                <li><a href="#">Exemplo 4</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Do While</li>
+				<li><a href="#">Exemplo 3</a></li>
+                <li><a href="#">Exemplo 4</a></li>
+              </ul>
+            </li>
+
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Banco de Dados <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+              	<li class="dropdown-header">MySQL</li>
+                <li><a href="#">Exemplo 1</a></li>
+                <li><a href="#">Exemplo 2</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">SQL Server</li>
+                <li><a href="#">Exemplo 3</a></li>
+              </ul>
+            </li>
+
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right">
+            <li><a class="dropdown-toggle"  data-toggle="modal" data-target="#myModal">Sobre o Desenvolvedor</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+
+      <!-- Main component for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <h1>PHP Exemplos</h1>
+        <p>
+        	Este site foi desenvolvido para eu estudar as funcionalidades do PHP.
+        </p>
+        <p>
+          <a class="btn btn-lg btn-primary" href="#" role="button">Saiba Mais &raquo;</a>
+        </p>
+      </div>
+
+		<div class="row">
+		  <div class="col-sm-3 col-md-6">
+		    <div class="thumbnail">
+		      <div class="caption">
+		      	<center><img src="img/php.jpeg"/></center>
+		        <h3>PHP</h3>
+		        <p>
+		        	PHP (um acrônimo recursivo para PHP: Hypertext Preprocessor) é uma linguagem de script open source de uso geral, muito utilizada e especialmente guarnecida para o desenvolvimento de aplicações Web embútivel dentro do HTML.
+		        </p>
+		      </div>
+		    </div>
+		  </div>
+
+		  <div class="col-sm-3 col-md-6">
+		    <div class="thumbnail">
+		      <div class="caption">
+		      	<center><img src="img/twitter_bootstrap.jpeg"/></center>
+		        <h3>Twitter Bootstrap</h3>
+		        <p>Um kit completo de componentes de interface para iniciar algo mais complexo. Um framework de front-end poderoso, elegante e intuitivo para um desenvolvimento web fácil e rápido</p>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+		<!-- Modal -->
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		        <h4 class="modal-title" id="myModalLabel">Sobre Heider Lopes</h4>
+		      </div>
+		      <div class="modal-body">
+		        Formado Sistema de Informação pela FIAP (Faculdade de Informática e Administração Paulista). Sou programador há mais de 5 anos e atualmente desenvolvo aplicativos para Android e JAVA. Atualmente curso Academia do Arquiteto na Instituição GlobalCode. Trabalho como desenvolvedor na empresa 7COMm (http://www.7comm.com.br/). Faço parte do Things Hacker Team (http://thingshackerteam.blogspot.com.br/). Já ministrei treinamentos e palestras em algumas instituições de ensino dentre elas SOS Educação Profissional, TODO!, DataByte, City Computer, FATEC Itapetininga.
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div><!-- /.modal-content -->
+		  </div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
+    </div> <!-- /container -->
+
+    <div class="container-fluid copyright">
+            <footer>
+                <p align="center"><a href="#" title="#">&copy; Heider Lopes - 2014</a></p>
+            </footer>
+		</div>
+  </body>
+</html>
